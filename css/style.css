@@ -1,0 +1,54 @@
+#dialog-container-import-lms-item {
+   position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999999;
+	    background: #00000040;
+}
+#dialog-container-import-lms-item .modal-header {
+    display: block;
+    width: 100%;
+padding-bottom: 15px;
+}
+#dialog-container-import-lms-item h5.modal-title {
+    display: inline;
+}
+#dialog-container-import-lms-item button.close {
+    float: right;
+	    background: red;
+    border: none;
+    color: white;
+    border-radius: 22px;
+    padding: 3px 7px;
+}
+#dialog-container-import-lms-item div#dialogForm {
+    width: 500px;
+    position: absolute;
+    top: 40%;
+    left: 29%;
+    background: white!important;
+    margin: auto;
+    height: auto;
+        z-index: 99999999;
+    background: #00000021;
+}
+.hide-import-lesson{
+	display:none;
+}
+#dialog-container-import-lms-item .modal-content {
+    padding: 16px 23px;
+}
+
+button.open-import-item , button.open-import-item-question  {
+    padding: 11px 20px;
+    margin-bottom: 13px;
+    background: #009e8d;
+    color: white;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 4px;
+	    cursor: pointer;
+}
